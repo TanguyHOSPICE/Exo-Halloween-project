@@ -1,0 +1,34 @@
+/*************** FONTS ******************/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+/*************** SECTION ******************/
+
+section {
+	background: linear-gradient(136.16deg, rgba(91, 135, 75, 0.97) 12.91%, rgba(12, 55, 32, 0.87) 87.68%);
+	height: 100vh;
+}
+/*************** SECTION CONTAINER ******************/
+section.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+/*************** SECTION CONTAINER HEADER ******************/
+section .container header {
+	display: flex; //Aligner le tout A-1.1
+	justify-content: space-between; /* TODO:Espace n'apparait pas-10m35s*/
+	/* flex-direction: row; //A-1.1 */
+}
+section .container nav {
+	display: flex; //Aligner le tout A-1.2
+	/* flex-direction: row; //A-1.2 */
+}
+section .container nav a {
+	margin-left: 10px; //Ecarter les linkS B-1
+}
