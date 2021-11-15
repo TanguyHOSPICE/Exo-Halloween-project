@@ -96,15 +96,28 @@ section .container .main-content .bloc-btn {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
+	color: white;
+	margin-top: 50px;
 }
-/*TODO:bg Book now?-33m41s*/
 section .container .main-content .bloc-btn .book-now {
 	padding: 10px 20px;
-	background-image: url(../svg/btn-svg-filled.svg);
+	background-image: url(/Assets/Media/svg/btn-svg-filled.svg);
 	background-size: 100% 100%;
 	width: 170px;
 	height: 83px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+section .container .main-content .bloc-btn a {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 22px;
+	color: #303056;
+}
+section .container .main-content .bloc-btn .track a {
+	color: white;
+	font-weight: 600;
+	font-size: 15px;
 }
