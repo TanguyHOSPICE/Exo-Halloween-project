@@ -14,10 +14,11 @@ section {
 	height: 100vh;
 }
 /*************** SECTION CONTAINER ******************/
-section.container {
+section .container {
 	max-width: 1100px;
 	margin: 0 auto;
 	padding-top: 50px;
+	height: 100%; /*B-1.1 */
 }
 /*************** SECTION CONTAINER HEADER ******************/
 section .container header,
@@ -45,4 +46,46 @@ section .container nav a:nth-child(5) {
 	border: 1px solid white;
 	padding: 10px 20px;
 	border-radius: 50px;
+}
+/*B-*/
+/*B-1.2-*/
+section .container .main-content {
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+/*B-1.3- permet de toucher le .left(section .container > .left)*/
+section .container .main-content .left {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+/*B-1.4*/
+section .container .main-content .right {
+	padding-left: 100px;
+}
+section .container .main-content .bloc-text {
+	color: white;
+}
+section .container .main-content .bloc-text span {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+section .container .main-content .bloc-text h1 {
+	font-weight: 900;
+	font-size: 68px;
+	line-height: 109%;
+	margin: 14px 0;
+}
+section .container .main-content .bloc-text p {
+	font-size: 16px;
+	line-height: 180%;
+	margin: 25px 0;
 }
