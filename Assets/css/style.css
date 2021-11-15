@@ -64,6 +64,7 @@ section .container .main-content .left {
 	align-items: center;
 	justify-content: center;
 }
+/*************** BLOC TXT ******************/
 /*B-1.4*/
 section .container .main-content .right {
 	padding-left: 100px;
@@ -88,4 +89,35 @@ section .container .main-content .bloc-text p {
 	font-size: 16px;
 	line-height: 180%;
 	margin: 25px 0;
+}
+/*************** BLOC BTN ******************/
+/*C-*/
+section .container .main-content .bloc-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	margin-top: 50px;
+}
+section .container .main-content .bloc-btn .book-now {
+	padding: 10px 20px;
+	background-image: url(/Assets/Media/svg/btn-svg-filled.svg);
+	background-size: 100% 100%;
+	width: 170px;
+	height: 83px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+section .container .main-content .bloc-btn a {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 22px;
+	color: #303056;
+}
+section .container .main-content .bloc-btn .track a {
+	color: white;
+	font-weight: 600;
+	font-size: 15px;
 }
