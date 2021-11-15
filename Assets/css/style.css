@@ -60,15 +60,55 @@ section .container .main-content {
 	align-items: center;
 	justify-content: center;
 }
+<<<<<<< HEAD
 /*************** BLOC lEFT ******************/
+=======
+/******** MAIN CONTENT LEFT  ***********/
+>>>>>>> MainBoxes
 
 /*B-1.3- permet de toucher le .left(section .container > .left)*/
 section .container .main-content .left {
-	height: 80%;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	height: 80%;
+}
+section .container .main-content .left::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url(/Assets/Media/img/shadow.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: 0;
+}
+section .container .main-content .left .infos {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	bottom: 0;
+	left: 0;
+}
+section .container .main-content .left .infos .infos-bloc-left {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+	text-align: right;
+	color: #fff;
+	margin-right: 20px;
+}
+section .container .main-content .left .infos-bloc-left span:nth-child(1) {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 180%;
+}
+section .container .main-content .left .infos-bloc-left span:nth-child(2) {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 180%;
 }
 /*************** BLOC RIGHT ******************/
 /******* BLOC TXT ******/
