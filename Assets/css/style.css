@@ -97,7 +97,7 @@ section .container .main-content .bloc-btn {
 	flex-direction: row;
 	justify-content: space-between;
 }
-/*TODO:bg Book now?*/
+/*TODO:bg Book now?-33m41s*/
 section .container .main-content .bloc-btn .book-now {
 	padding: 10px 20px;
 	background-image: url(../svg/btn-svg-filled.svg);
