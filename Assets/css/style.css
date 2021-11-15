@@ -186,3 +186,50 @@ section .container .bottom-content .old-ghost-btn a {
 	font-weight: 600;
 	font-size: 15px;
 }
+
+/*************** RESPONSIV ******************/
+/******** Container ***********/
+@media screen and (max-width: 1100px) {
+	section {
+		height: 100%;
+	}
+	section .container {
+		padding: 0 50px;
+		height: 100vh;
+	}
+	section .container .main-content {
+		flex-direction: column-reverse;
+		margin-top: 50px;
+	}
+	section .container .main-content .right {
+		padding-left: 0px;
+		max-width: 800px;
+	}
+	section .container .main-content .left {
+		margin-top: 50px;
+	}
+	section .container .main-content .bottom-content {
+		margin-top: 50px;
+	}
+}
+/******** Navbar 900px***********/
+@media screen and (max-width: 900px) {
+	section header {
+		display: none !important;
+	}
+}
+/******** Bloc-txt 600px***********/
+@media screen and (max-width: 600px) {
+	section .container .main-content .bloc-text h1 {
+		font-size: 45px;
+	}
+	section .container .main-content .left img {
+		width: 100%;
+	}
+	section .container .main-content .left .infos {
+		display: none;
+	}
+	section .container {
+		padding: 20px;
+	}
+}
