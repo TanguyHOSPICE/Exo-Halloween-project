@@ -20,15 +20,29 @@ section.container {
 	padding-top: 50px;
 }
 /*************** SECTION CONTAINER HEADER ******************/
-section .container header {
-	display: flex; //Aligner le tout A-1.1
-	justify-content: space-between; /* TODO:Espace n'apparait pas-10m35s*/
-	/* flex-direction: row; //A-1.1 */
+section .container header,
+section .container header .left,
+section .container header .right {
+	display: flex; /*Aligner le tout A-1.1*/
+	justify-content: space-between;
+	flex-direction: row; /*A-1.1 */
+	align-items: center;
 }
-section .container nav {
-	display: flex; //Aligner le tout A-1.2
-	/* flex-direction: row; //A-1.2 */
-}
+/*
+ section .container nav {
+	display: flex; /*Aligner le tout A-1.2
+	align-items: center;
+	flex-direction: row; /*A-1.2 
+} */
 section .container nav a {
-	margin-left: 10px; //Ecarter les linkS B-1
+	margin-left: 50px; /* Ecarter les linkS B-1 */
+	color: white;
+	font-size: 14px;
+	outline: none;
+}
+section .container nav a:nth-child(5) {
+	font-weight: 500;
+	border: 1px solid white;
+	padding: 10px 20px;
+	border-radius: 50px;
 }
