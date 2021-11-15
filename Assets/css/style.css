@@ -60,11 +60,8 @@ section .container .main-content {
 	align-items: center;
 	justify-content: center;
 }
-<<<<<<< HEAD
-/*************** BLOC lEFT ******************/
-=======
+
 /******** MAIN CONTENT LEFT  ***********/
->>>>>>> MainBoxes
 
 /*B-1.3- permet de toucher le .left(section .container > .left)*/
 section .container .main-content .left {
