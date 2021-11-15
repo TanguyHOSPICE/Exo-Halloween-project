@@ -14,13 +14,14 @@ section {
 	height: 100vh;
 }
 /*************** SECTION CONTAINER ******************/
+/****************************************************/
 section .container {
 	max-width: 1100px;
 	margin: 0 auto;
 	padding-top: 50px;
 	height: 100%; /*B-1.1 */
 }
-/*************** SECTION CONTAINER HEADER ******************/
+/***************  HEADER ******************/
 section .container header,
 section .container header .left,
 section .container header .right {
@@ -29,6 +30,7 @@ section .container header .right {
 	flex-direction: row; /*A-1.1 */
 	align-items: center;
 }
+/******* NAV ******/
 /*
  section .container nav {
 	display: flex; /*Aligner le tout A-1.2
@@ -47,6 +49,8 @@ section .container nav a:nth-child(5) {
 	padding: 10px 20px;
 	border-radius: 50px;
 }
+/*************** MAIN CONTENT ******************/
+
 /*B-*/
 /*B-1.2-*/
 section .container .main-content {
@@ -56,6 +60,8 @@ section .container .main-content {
 	align-items: center;
 	justify-content: center;
 }
+/*************** BLOC lEFT ******************/
+
 /*B-1.3- permet de toucher le .left(section .container > .left)*/
 section .container .main-content .left {
 	height: 80%;
@@ -64,7 +70,8 @@ section .container .main-content .left {
 	align-items: center;
 	justify-content: center;
 }
-/*************** BLOC TXT ******************/
+/*************** BLOC RIGHT ******************/
+/******* BLOC TXT ******/
 /*B-1.4*/
 section .container .main-content .right {
 	padding-left: 100px;
@@ -90,7 +97,7 @@ section .container .main-content .bloc-text p {
 	line-height: 180%;
 	margin: 25px 0;
 }
-/*************** BLOC BTN ******************/
+/****** BLOC BTN *********/
 /*C-*/
 section .container .main-content .bloc-btn {
 	display: flex;
@@ -121,3 +128,4 @@ section .container .main-content .bloc-btn .track a {
 	font-weight: 600;
 	font-size: 15px;
 }
+/***************  BOTTOM CONTENT ******************/
